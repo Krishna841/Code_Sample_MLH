@@ -1,0 +1,10 @@
+link {
+  text-decoration: none;
+}
+.profile {
+  &_dropdown {
+    background-color: rgb(173, 169, 169);
+    position: absolute;
+    z-index: 9;
+  }
+}

@@ -1,0 +1,93 @@
+.item {
+  height: 40px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px 0px;
+  padding: 8px 0px;
+  //background-color: #d9d9d9;
+  border-radius: 10px;
+  &:hover {
+    background-color: rgb(240, 234, 234);
+  }
+  &_box {
+    height: 100%;
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    //margin-top: 5px;
+    &_title {
+      width: 19%;
+      height: 100%;
+      // padding-right: 50px;
+      // margin-right: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      //font-family: Arima-Bold;
+      color: #000000;
+      font-size: 20px;
+    }
+    &_company {
+      width: 19%;
+      height: 100%;
+      margin-left: 3%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: capitalize;
+      //font-family: Gentium-Book-Plus;
+    }
+    &_website {
+      width: 19%;
+      height: 100%;
+      padding-right: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    &_date {
+      width: 19%;
+      height: 100%;
+      // padding-left: 40px;
+      margin-right: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      color: rgba(19, 18, 18, 0.84);
+    }
+    &_status {
+      width: 90px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      color: #ffff;
+      margin-left: 50px;
+    }
+  }
+}
+
+a {
+  color: rgb(105, 138, 230);
+}
+
+.bg {
+  &_exp {
+    background: #e24d39;
+  }
+  &_active {
+    background: #5dc554;
+  }
+  &_days {
+    background: #f1cb08;
+  }
+}

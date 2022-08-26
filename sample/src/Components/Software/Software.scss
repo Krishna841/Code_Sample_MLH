@@ -1,0 +1,87 @@
+.software {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  &_main {
+    padding: 0em 5em;
+    width: 100%;
+    height: 100%;
+    &_title {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      padding-top: 15px;
+
+      &_text {
+        font-family: "Istok Web";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+
+        color: #7129ba;
+
+        padding-right: 400px;
+      }
+    }
+    &_box {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(222, 222, 222, 0.24);
+      border: 5px solid rgba(120, 104, 230, 0.92);
+      border-radius: 5px;
+      &_header {
+        width: 100%;
+        height: 10%;
+      }
+      &_heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 98%;
+        height: 100%;
+        background-color: white;
+        padding: 9px;
+        margin-top: 20px;
+        border-radius: 10px;
+        &_name {
+          width: 19%;
+          padding-left: 20px;
+        }
+        &_company {
+          width: 19%;
+        }
+        &_website {
+          width: 18%;
+        }
+        &_date {
+          width: 19%;
+        }
+        &_status {
+          width: 12%;
+          color: black;
+        }
+      }
+      &_list {
+        margin-top: 20px;
+        width: 100%;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+          width: 0;
+        }
+      }
+    }
+  }
+}

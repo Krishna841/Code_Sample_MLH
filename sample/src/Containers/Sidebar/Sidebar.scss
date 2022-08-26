@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 4em;
+  height: 100vh;
+  background-color: #7868e6;
+  &_dashboard {
+    padding-top: 10px;
+    //transform: translate(0px, 10px);
+  }
+  &_redirects {
+    transform: translate(0px, -220px);
+
+    &_software {
+      padding-bottom: 7px;
+    }
+    &_hardware {
+      // padding-top: 5px;
+    }
+  }
+  &_wrapper {
+    &_logout {
+      //padding-bottom: 10px;
+    }
+  }
+}
+
+img {
+  border-radius: 3px;
+}

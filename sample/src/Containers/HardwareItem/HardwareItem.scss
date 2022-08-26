@@ -1,0 +1,83 @@
+.hardItem {
+  height: 40px;
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  //background-color: #d9d9d9;
+  &:hover {
+    background-color: rgb(240, 234, 234);
+  }
+  border-radius: 10px;
+  &_box {
+    height: 100%;
+    width: 93%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    // margin-top: 5px;
+    &_title {
+      width: 19%;
+      height: 100%;
+      // font-family: Gentium-Book-Plus;
+      color: #000000;
+      font-size: 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    &_company {
+      width: 19%;
+      height: 100%;
+      margin-left: 3%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+    &_vendor {
+      width: 19%;
+      height: 100%;
+      padding-right: 80px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    &_serial {
+      width: 19%;
+      height: 100%;
+      margin-right: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(19, 18, 18, 0.84);
+    }
+    &_warranty {
+      width: 15%;
+      height: 60%;
+      display: flex;
+      justify-content: center;
+      margin-top: 6px;
+      align-items: center;
+      border-radius: 10px;
+      color: #ffff;
+      margin-left: 40px;
+    }
+  }
+}
+
+.bg {
+  &_exp {
+    background: #e24d39;
+  }
+  &_active {
+    background: #5dc554;
+  }
+  &_days {
+    background: #f1cb08;
+  }
+}

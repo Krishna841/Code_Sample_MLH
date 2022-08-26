@@ -1,0 +1,11 @@
+a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+.App {
+   text-align: center;
+   height: 100vh;
+   width: 100vw;
+}
+
